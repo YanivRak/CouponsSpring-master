@@ -1,0 +1,16 @@
+package com.example.Coupons;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CouponsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CouponsApplication.class, args);
+
+		System.out.println("Hello Zvi");
+
+	}
+
+}
